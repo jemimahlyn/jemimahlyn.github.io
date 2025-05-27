@@ -5,9 +5,9 @@ flowchart TD
     Prompt[Prompt user to guess the number]
     Input[User enters a guess]
     Check{Is the guess correct?}
-    TooHigh[Display "Too High"]
-    TooLow[Display "Too low"]
-    Correct[Display "Correct!"]
+    TooHigh["Too High"]
+    TooLow["Too low"]
+    Correct["Correct!"]
     End([End])
 
     Start --> Init --> Prompt --> Input --> Check
